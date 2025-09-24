@@ -26,27 +26,12 @@ Force Vive propose :
 - Gamification avec badges  
 - Stockage local (pour données utilisateurs et sessions)  
 
-## Utiliser le projet dans Dreamflow (recommandé)
-
-Ce projet a été créé pour fonctionner dans l'éditeur visuel Dreamflow. Pour explorer et tester l'application sans configuration locale :
-
-1. Ouvre le projet dans Dreamflow.
-2. Utilise le panneau Preview pour lancer l'app dans le navigateur.
-3. Active Inspect Mode si tu veux sélectionner et éditer visuellement des widgets.
-4. Édite des fichiers depuis le panneau Code.
-5. Utilise Hot Reload ou Hot Restart depuis l'interface pour voir les changements.
-6. Pour ajouter/mettre à jour des images, ouvre le panneau Assets et utilise le bouton "+" pour téléverser.
-
-### Remarques utiles :
-
-- Si tu veux connecter un backend (Firebase ou Supabase), ouvre le panneau Firebase ou Supabase dans Dreamflow et complète la configuration via l'interface (Dreamflow gère l'intégration).  
-- Pour envoyer un rapport de bug ou une demande d'amélioration, clique sur "Submit Feedback" dans la barre supérieure de Dreamflow.
 
 ## Configuration backend
 
 Aucun backend n'est connecté par défaut.
 
-- Pour utiliser Firebase : ouvre le panneau Firebase dans Dreamflow et suis l'assistant de connexion et d'intégration.  
+- Pour utiliser Firebase : ouvre le panneau Firebase suis l'assistant de connexion et d'intégration.  
 - Pour utiliser Supabase : ouvre le panneau Supabase et suis l'assistant.  
 
 ## Structure du projet
@@ -76,18 +61,14 @@ Aucun backend n'est connecté par défaut.
 
 ## Exécuter localement (optionnel)
 
-Télécharge le code depuis Dreamflow (Menu > Download Code) pour l'ouvrir localement dans ton environnement Flutter.  
+Télécharge le code  pour l'ouvrir localement dans ton environnement Flutter.  
 Utilise ton IDE/outil habituel pour builder et déployer sur simulateur/appareil.  
 
-## Contribution
-
-- Ouvrir une issue ou utiliser le bouton "Submit Feedback" dans Dreamflow pour rapports de bugs ou demandes d'amélioration.  
-- Pour modifications de code importantes, crée une branche dédiée et propose une MR (ou fournis des instructions pour revue).  
 
 ## Points connus / TODO
 
 - Aucun backend connecté par défaut : stockage actuellement local.  
-- Possibilité d'ajouter synchronisation cloud (Firebase/Supabase) via les panels Dreamflow.  
+- Possibilité d'ajouter synchronisation cloud (Firebase/Supabase)   
 - Extension d'exercices et médias (plus d'images/vidéos).  
 - Améliorations UX pour la planification avancée et notifications.  
 
